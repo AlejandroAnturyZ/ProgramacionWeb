@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+#contenedor {
+    
+    border: solid #bcbcbc;
+    width: 80%;
+    min-height: 135vh;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+}
+
+#contenedorContacto {
+    width: 35%;
+    height: 95%;
+    display: flex;
+}
+
+#contacto {
+    border: solid black;
+    border-width: 4.5px;
+    width: 100%;
+    height: 125vh;
+    display: inline-block;
+    z-index: 10;
+}
+
+#Foto_principal {
+
+    width: 250px;
+    height: 310px;
+    top: 12%;
+    left: 18.2%;
+    position: absolute;
+    filter: grayscale();
+    z-index: auto;
+    
+}
+
+#TelContact {
+    
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 5px;
+    margin-left: 7%;
+    margin-left: 1.5%;
+    
+}
+
+#EmailContact {
+    
+    width: 40px;
+    height: 40px;
+    padding: 2.9px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 5px;
+    margin-top: 30px;
+    margin-left: 1.5%;
+}
+
+.posicion_textContact {
+    margin-left: 20%;
+}
+
+#NumeroContacto {
+    margin-left: 25%;
+    margin-top: 5.5%;
+}
+
+#CorreoElectronico {
+    margin-top: 13.5%;
+    margin-left: 25%;
+}
+
+#TituloContacto {
+    margin-top: 60vh;
+}
+
+#SegundoTituloContacto {
+    margin-top: 10vh;
+}
+
+.posicion_text {
+    margin-left: 7%;
+    margin-top: 5px;
+    
+}
+
+.posicion_contacto {
+    margin-left: 7%;
+}
+
+#descripcion {
+    width: 70%;
+    height: 113vh;
+    display: inline-block;
+    /* z-index: 10; */
+}
+
+#titulo_inicial {
+    margin-top: 1%;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+.descripcionTitulo {
+    font-size: 4em;
+    margin-left: 10%;
+
+}
+
+#apellido{
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+#profesion {
+
+    font-size: 12px;
+    margin-bottom: 15%;
+}
+
+.descripcionText {
+    margin-top: 7px;
+    margin-left: 10%;
+}
+
+#ExpLaboral {
+    font-size: 1.5em;
+}
+
+#DatosAcademicos{
+    
+    font-size: 1.5em;
+}
+
+.Lista{
+    list-style-type: none;
+    font-size: 14px;
+    margin-left: 11%;
+    margin-bottom: 7%;
+
+}
+
+.descripcionTextTamanhio{
+    font-size: 14px;
+    margin-left: 10%;
+}

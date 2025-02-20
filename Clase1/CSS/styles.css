@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+img{
+    /*medidas vw "vw es el tamaño de la pantalla", %*/
+    width: 100px;
+    height: 150px;
+    border-radius: 15%;
+}
+
+p{
+    color: red;
+    font-size: 30px;
+    /*!important para que tenga mayor gerarquia que las clases y id*/
+}
+.arriba{
+    /*Para classes*/
+    background-color: yellow;
+}
+
+.abajo{
+    color: white;
+}
+#unico{
+    /*# para id*/
+    color: white;
+    background-color: blueviolet;
+    
+}
+#imagen{
+    width: 50%;
+    height: 50%;
+    border: solid red;
+    padding: 30px;
+
+}
+#Inicio{
+    border: outset;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+}
+
+/* Inline-block para que dos div esten en linea, block  */
+
+a{
+    text-decoration: none;
+}
+html{
+    color: white;
+}
